@@ -1,1 +1,21 @@
-/* You can add global styles to this file, and also import other style files */
+footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+    left: 0px;
+}
+
+body{
+    margin-bottom: 100px;
+}
+
+#chat-mensajes{
+    height: 40vh;
+    border: 1px solid gray;
+    border-radius: 5px;
+    overflow-y:auto;
+}
+
+.chat-input{
+    margin-top: 10px;
+}
